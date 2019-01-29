@@ -6,7 +6,7 @@ const seasonItem = (props) => (
   <Link to={'/'} className={classes.SeasonItem}>
     <li>
       <div>image</div>
-      <p>text</p>
+      <p>{props.season}</p>
     </li>
   </Link>
 )
