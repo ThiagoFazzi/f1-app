@@ -1,0 +1,15 @@
+.SeasonList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+@media (max-width: 500px){
+  .SeasonList {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+  } 
+}

@@ -1,0 +1,17 @@
+.SeasonItem {
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid darkgray;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 500px){
+  .SeasonItem{
+    width:100%;
+    margin: 10px 0;
+  }
+  
+}
