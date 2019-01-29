@@ -1,0 +1,46 @@
+.MenuItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.MenuItem a {
+  color: red;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.MenuItem a:hover,
+.MenuItem a:active,
+.MenuItem a.active {
+  color: #c2c2c2;
+}
+
+@media (min-width: 500px) {
+  .MenuItem {
+    font-size: 1.3rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100%;
+  }
+  
+  .MenuItem a {
+    color: black;
+    height: 100%;
+    padding: 31px 10px;
+    border-bottom: 4px solid transparent;
+  }
+  
+  .MenuItem a:hover,
+  .MenuItem a:active,
+  .MenuItem a.active {
+    border-bottom: 4px solid #c8c8c8;
+    color: red;
+    background-color: rgba(0,0,0,.1);
+  }
+}

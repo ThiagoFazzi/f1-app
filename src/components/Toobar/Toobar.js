@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './Toobar.module.css'
 import Logo from '../Logo/Logo'
+import Menu from './Menu/Menu'
 
 const toobar = (props) => (
   <header className={classes.Toobar}>
@@ -8,7 +9,7 @@ const toobar = (props) => (
       <Logo />
     </div>
     <nav className={classes.DesktopOnly}>
-      Menu itens
+      <Menu />
     </nav>
   </header>
 )
