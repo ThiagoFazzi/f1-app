@@ -6,7 +6,7 @@
 }
 
 .MenuItem a {
-  color: red;
+  color: black;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -16,7 +16,7 @@
 .MenuItem a:hover,
 .MenuItem a:active,
 .MenuItem a.active {
-  color: #c2c2c2;
+  color: red;
 }
 
 @media (min-width: 500px) {
@@ -39,7 +39,7 @@
   .MenuItem a:hover,
   .MenuItem a:active,
   .MenuItem a.active {
-    border-bottom: 4px solid #c8c8c8;
+    border-bottom: 4px solid #c0c0c0;
     color: red;
     background-color: rgba(0,0,0,.1);
   }

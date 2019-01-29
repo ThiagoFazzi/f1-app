@@ -1,10 +1,11 @@
 .Menu {
   margin: 0;
-  padding: 10px;
+  padding: 20px;
   list-style: none;
   display: flex;
   flex-flow: column;
   align-items: center;
+  text-align: left;
   height: 20%;
 }
 
