@@ -4,8 +4,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(240, 6, 6);
+  background-color: white;
   display: flex;
+  border-bottom: 2px solid red;
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
