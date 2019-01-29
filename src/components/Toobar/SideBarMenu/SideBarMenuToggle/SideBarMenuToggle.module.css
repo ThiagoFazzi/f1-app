@@ -17,7 +17,7 @@
 }
 
 @media (min-width: 500px) {
-  /*.SideBarMenuToggle {
+  .SideBarMenuToggle {
       display: none;
-  }*/
+  }
 }
