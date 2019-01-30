@@ -1,17 +1,28 @@
 .SeasonItem {
-  width: 180px;
-  height: 200px;
-  margin: 10px;
-  border: 1px solid darkgray;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  height: 50px;
+  margin: 10px 0;
   text-decoration: none;
-  color: black;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+  background-color: red;
+
 }
 
-@media (max-width: 500px){
-  .SeasonItem{
-    width:100%;
-    margin: 10px 0;
-  }
-  
+.SeasonItem li {
+  margin: auto 0;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.SeasonItem:hover,
+.SeasonItem:active {
+  background-color: darkred;
 }

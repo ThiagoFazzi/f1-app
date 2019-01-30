@@ -3,12 +3,14 @@ import classes from './SeasonItem.module.css'
 import { Link } from 'react-router-dom'
 
 const seasonItem = (props) => (
-  <Link to={'/'} className={classes.SeasonItem}>
-    <li>
-      <div>image</div>
-      <p>{props.season}</p>
-    </li>
-  </Link>
+
+     
+      <Link to={`/racers/${props.season}`} className={classes.SeasonItem}>
+        <li >
+          {props.season}
+        </li>
+      </Link>
+  
 )
 
 export default seasonItem

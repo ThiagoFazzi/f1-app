@@ -4,7 +4,7 @@ import SeasonItem from '../SeasonItem/SeasonItem'
 
 const seasonList = (props) => (
   <ul className={classes.SeasonList}>
-    {props.seasons.map((season, i) => <SeasonItem key={i} season={season.season}/>)}
+    {props.seasons.map((season, i) => <SeasonItem key={i} season={season.season} />)}
   </ul>
 )
 
