@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/f1-app/static/media/lotus_racing.27ed4282.jpg"
   },
   {
-    "revision": "d247b552c8369e9f6abd",
+    "revision": "29772c1694f169e8832b",
     "url": "/f1-app/static/css/main.83ff7d52.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/f1-app/static/media/lotus_f1.66624c52.jpg"
   },
   {
-    "revision": "d247b552c8369e9f6abd",
-    "url": "/f1-app/static/js/main.d247b552.chunk.js"
+    "revision": "29772c1694f169e8832b",
+    "url": "/f1-app/static/js/main.29772c16.chunk.js"
   },
   {
     "revision": "4ce20d3c66080fe73dbed70e2fc60db8",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/f1-app/static/media/williams.04218321.jpg"
   },
   {
-    "revision": "cf22cc7605363e8a4de8801ef3526d57",
+    "revision": "75da02c79a0690477c3641c6c099c254",
     "url": "/f1-app/index.html"
   }
 ];
