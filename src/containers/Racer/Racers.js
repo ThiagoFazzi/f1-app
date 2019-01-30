@@ -36,6 +36,17 @@ class Racers extends Component {
     
   }
 
+  addRacerToFavoritesHandler = (racer) => {
+    let favoriteRacers = []
+    if(localStorage.length > 0){
+      favoriteRacers = JSON.parse(localStorage.getItem('racers'))
+    }
+    if(!favoriteRacers.some(item => item.driverId === racer.driverId)){
+      favoriteRacers.push(racer)
+      localStorage.setItem('racers', JSON.stringify(favoriteRacers))
+    }
+  }
+
   render(){
     let seasonTitle = <p>Loading ......</p>
     let racers = <p>Loading Racers......</p>
@@ -43,7 +54,7 @@ class Racers extends Component {
       seasonTitle =  <h1>Racers by Seasons {this.state.season}</h1>     
     }
     if(this.state.racers){
-      racers = <RacerList racers={this.state.racers} />
+      racers = <RacerList racers={this.state.racers} addFavorites={this.addRacerToFavoritesHandler}/>
     }
     return(
       <>

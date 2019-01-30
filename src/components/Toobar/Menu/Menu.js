@@ -5,7 +5,7 @@ import MenuItem from './MenuItem/MenuItem'
 const menu = (props) => (
   <ul className={classes.Menu}>
     <MenuItem link='/'>Seasons</MenuItem>
-    <MenuItem link='/'>Favorite List</MenuItem>
+    <MenuItem link='/favorites'>Favorite Racers</MenuItem>
   </ul>
 )
 
