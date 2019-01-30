@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import classes from './FavoritesRacers.module.css'
+import FavoriteList from '../../components/favoritesRacers/FavoriteList/FavoriteList'
 
 class FavoritesRacers extends Component {
 
@@ -16,16 +17,14 @@ class FavoritesRacers extends Component {
   }
 
   render(){
-    //let favoriteList = <p>Loading......</p>
-    //if(this.state.favoritesRacers){
-    //  favoriteList = <>
-    //}
+    let favoriteList = <p>Loading......</p>
+    if(this.state.favoritesRacers){
+      favoriteList = <FavoriteList racers={this.state.favoritesRacers} />
+    }
     return(
       <>
         <h1>Favorites Racers</h1>
-        <ul>
-          {this.state.favoritesRacers ? console.log(this.state.favoritesRacers) : null}
-        </ul>
+        {favoriteList}
       </>
     )
   }
