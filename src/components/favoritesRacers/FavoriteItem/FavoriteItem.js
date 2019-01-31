@@ -9,7 +9,6 @@ const favoriteItem = (props) => (
     <div className={classes.Driver}>
       {props.racer.driver}
     </div>
-
   </li>
 )
 

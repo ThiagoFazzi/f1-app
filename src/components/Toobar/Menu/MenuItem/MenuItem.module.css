@@ -14,8 +14,7 @@
 }
 
 .MenuItem a:hover,
-.MenuItem a:active,
-.MenuItem a.active {
+.MenuItem a:active {
   color: red;
 }
 
@@ -30,17 +29,14 @@
   }
   
   .MenuItem a {
-    color: black;
     height: 100%;
-    padding: 31px 10px;
+    padding: 30px 10px;
     border-bottom: 4px solid transparent;
   }
   
   .MenuItem a:hover,
-  .MenuItem a:active,
-  .MenuItem a.active {
+  .MenuItem a:active {
     border-bottom: 4px solid #c0c0c0;
-    color: red;
     background-color: rgba(0,0,0,.1);
   }
 }

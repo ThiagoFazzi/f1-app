@@ -5,7 +5,3 @@
   display: flex;
   flex-flow: column;
 }
-
-@media (max-width: 500px){
-
-}
