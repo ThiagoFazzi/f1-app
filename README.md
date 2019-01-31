@@ -1,14 +1,14 @@
-<h1>Project <strong>F1 APP<strong></h1>
+<h2>Formula 1 App</h2>
 
-<a href="https://thiagofazzi.github.io/f1-app/"><h2>Live Demo</h2></a>
+<a href="https://thiagofazzi.github.io/f1-app/" target="_blank"><h3>Live Demo</h3></a>
 
-<h2>Description</h2>
+<h3>Description</h3>
 <p></p>
 
-<h2>API</h2>
+<h3>API</h3>
 <p></p>
 
-<h2>Technologies</h2>
+<h3>Technologies</h3>
 <ul>
   <li></li>
   <li></li>
