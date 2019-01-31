@@ -24,4 +24,5 @@
 .SeasonItem:hover,
 .SeasonItem:active {
   background-color: darkred;
+  cursor: pointer;
 }
