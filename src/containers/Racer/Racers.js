@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import classes from './Racers.module.css'
+import classes from './Racers.module.css'
 import axios from 'axios'
 import RacerList from '../../components/Racer/RacerList/RacerList'
 
@@ -57,10 +57,10 @@ class Racers extends Component {
       racers = <RacerList racers={this.state.racers} addFavorites={this.addRacerToFavoritesHandler}/>
     }
     return(
-      <>
+      <div className={classes.Racers}>
       {seasonTitle}
       {racers}
-      </>
+      </div>
     )
   }
 }

@@ -1,3 +1,9 @@
 .Content {
-  margin-top: 50px;
+  margin-top: 70px;
+}
+
+@media (max-width: 500px){
+  .Content {
+    margin-top: 60px;
+  }
 }
