@@ -1,0 +1,13 @@
+.FavoritesRacers {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+@media (max-width: 500px){
+  .FavoritesRacers {
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
+  }
+}

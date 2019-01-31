@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import classes from './FavoritesRacers.module.css'
+import classes from './FavoritesRacers.module.css'
 import FavoriteList from '../../components/favoritesRacers/FavoriteList/FavoriteList'
 
 class FavoritesRacers extends Component {
@@ -29,10 +29,10 @@ class FavoritesRacers extends Component {
       favoriteList = <FavoriteList racers={this.state.favoritesRacers} clickRemoveItem={this.removeFavoriteRacerItemHandler}/>
     }
     return(
-      <>
+      <div className={classes.FavoritesRacers}>
         <h1>Favorites Racers</h1>
         {favoriteList}
-      </>
+      </div>
     )
   }
 }

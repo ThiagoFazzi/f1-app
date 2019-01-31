@@ -51,15 +51,15 @@ class Racers extends Component {
     let seasonTitle = <p>Loading ......</p>
     let racers = <p>Loading Racers......</p>
     if(this.state.season){
-      seasonTitle =  <h1>Racers by Seasons {this.state.season}</h1>     
+      seasonTitle =  <h1>Seasons {this.state.season} Final Standings</h1>     
     }
     if(this.state.racers){
       racers = <RacerList racers={this.state.racers} addFavorites={this.addRacerToFavoritesHandler}/>
     }
     return(
       <div className={classes.Racers}>
-      {seasonTitle}
-      {racers}
+        {seasonTitle}
+        {racers}
       </div>
     )
   }
