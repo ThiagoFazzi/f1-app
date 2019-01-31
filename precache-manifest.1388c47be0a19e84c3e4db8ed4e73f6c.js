@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/f1-app/static/media/williams.04218321.jpg"
   },
   {
-    "revision": "84ebe59559cb8d8884d92961d6bbac12",
+    "revision": "dffc1394821992b97a7805dadbf54585",
     "url": "/f1-app/index.html"
   }
 ];
