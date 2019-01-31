@@ -28,8 +28,8 @@
 .ImageFlag img {
   object-fit: cover;
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
+  width: 35px;
+  height: 35px;
 }
 
 .Driver {
@@ -39,3 +39,19 @@
   font-weight: normal;
 }
 
+@media (max-width: 500px){
+  .ImageFlag {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .ImageFlag img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .Driver {
+    font-size: .9em;
+    font-weight: bold;
+  }
+}
