@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './RacerItem.module.css'
 
 const racerItem = (props) => (
-  <li className={classes.RacerItem} onClick={() => props.clicked(props.racer)}>
+  <li className={classes.RacerItem} onClick={() => props.clicked(props.racer)} onTouchStart={() => props.clicked(props.racer)}>
     <div className={classes.Position}>
       {props.racer.position}
     </div>

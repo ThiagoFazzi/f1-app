@@ -24,7 +24,6 @@ class Layout extends Component {
       <>
         <Toobar sideBarMenuToggleClicked={this.sideBarMenuToggleClickedHandler}/>
         <SideBarMenu open={this.state.showSideBarMenu} closed={this.sideDrawerClosedHandler}/>
-        <div>SideDrawer</div>
         <main className={classes.Content}>
           {this.props.children}
         </main>

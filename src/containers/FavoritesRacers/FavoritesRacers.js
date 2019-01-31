@@ -16,10 +16,17 @@ class FavoritesRacers extends Component {
     }
   }
 
+  removeFavoriteRacerItemHandler = (racer) => {
+    let favoriteRacers = JSON.parse(localStorage.getItem('racers'))
+    const newFavoritesRacers = favoriteRacers.filter(item => item.driverId !== racer.driverId)
+    localStorage.setItem('racers', JSON.stringify(newFavoritesRacers))
+    this.setState({favoritesRacers: newFavoritesRacers})
+  }
+
   render(){
     let favoriteList = <p>Loading......</p>
     if(this.state.favoritesRacers){
-      favoriteList = <FavoriteList racers={this.state.favoritesRacers} />
+      favoriteList = <FavoriteList racers={this.state.favoritesRacers} clickRemoveItem={this.removeFavoriteRacerItemHandler}/>
     }
     return(
       <>
