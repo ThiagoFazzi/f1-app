@@ -1,15 +1,16 @@
 .SeasonItem {
-  height: 50px;
-  margin: 10px 0;
+  height: 40px;
+  margin: 10px auto;
   text-decoration: none;
   color: white;
   display: flex;
   flex-flow: column;
   padding: 10px;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 30px;
   box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
   background-color: red;
+  width: 80%; 
+  transform: skewX(-35deg);
 }
 
 .SeasonItem li {

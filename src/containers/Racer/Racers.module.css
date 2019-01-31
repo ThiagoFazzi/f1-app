@@ -10,4 +10,8 @@
     margin: 0 auto;
     list-style: none;
   }
+
+  .Racers h1 {
+    font-size: 1.2em;
+  }
 }

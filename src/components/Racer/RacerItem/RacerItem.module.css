@@ -1,6 +1,6 @@
 .RacerItem {
-  width: 100%;
-  height: 100px;
+  width: 80%;
+  height: 60px;
   border: 2px solid red;
   list-style: none;
   display: flex;
@@ -8,13 +8,13 @@
   align-items: center;
   align-content: space-around;
   margin: 10px 0;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 25px;
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
   font-style: italic;
   font-size: 1.4rem;
   box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+  transform: skewX(-35deg);
 }
 
 .RacerItem:first-child {
@@ -32,6 +32,7 @@
   margin: 10px;
   width: 50px;
   font-size: 1.2em;
+  transform: skewX(35deg);
 }
 
 .ImageFlag {
@@ -40,6 +41,7 @@
   border-radius: 50%;
   margin: 10px;
   border: 1px solid black;
+  transform: skewX( 35deg);
 }
 
 .ImageFlag img {
@@ -54,17 +56,20 @@
   margin: 10px;
   text-align: left;
   font-weight: normal;
+  transform: skewX(35deg);
 }
 
 .ImageTeam {
-  width: 120px;
-  height: auto;
-  margin: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  transform: skewX(35deg);
 }
 
 .ImageTeam img {
-  width: 100%;
-  height: 100%;  
+  object-fit: contain;
+  width: 200px;
+  height: 50px;  
 }
 
 .Team {
@@ -73,6 +78,7 @@
   text-align: left;
   font-weight: normal;
   font-size: 1.1rem;
+  transform: skewX(35deg);
 }
 
 .Point {
@@ -81,32 +87,41 @@
   text-align: left;
   font-weight: bold;
   font-size: 1.1rem;
+  transform: skewX(35deg);
 }
 
 @media (max-width: 500px){
   .RacerItem {
-    height: 90px;
+    width: 90%;
+    margin: 5px 0;
+    flex-flow: row;
+    align-items: flex-end;
+    align-content: space-around;
+    height: 40px;
     font-size: 1rem;
   }
    
   .Position {
-    margin: 10px;
-    width: 50px;
-    font-size: 1.4em;
+    margin: 5px;
+    width: 25px;
+    font-size: 1.2em;
   }
   
   .ImageFlag {
-    width: 28px;
-    height: 28px;
+    margin: 0 0 5px 5px;
+    width: 20px;
+    height: 20px;
   }
   
   .ImageFlag img {
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
   }
   
   .Driver {
-    font-size: 1rem;
+    margin: 5px;
+    width: 120px;
+    font-size: .7rem;
     font-weight: bold;
   }
   
@@ -115,11 +130,15 @@
   }
   
   .Team {
-    font-size: .8rem;
+    margin: 5px;
+    width: 100px;
+    font-size: .7rem;
   }
   
   .Point {
-    font-size: .8rem;
+    margin: 5px;
+    width: 90px;
+    font-size: .65rem;
   }
   
 }
