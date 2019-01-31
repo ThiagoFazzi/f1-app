@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import classes from './Seasons.module.css'
 import SeasonList from '../../components/Season/SeasonList/SeasonList'
 import axios from 'axios'
+import Spinner from '../../components/UI/Spinner/Spinner'
 
 class Seasons extends Component {
 
@@ -19,7 +20,7 @@ class Seasons extends Component {
   }
 
   render(){
-    let seasonsList = <p>Loading...</p>
+    let seasonsList = <Spinner />
     if(this.state.seasons){
       seasonsList = <SeasonList seasons={this.state.seasons}/>
     }

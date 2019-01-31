@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import classes from './FavoritesRacers.module.css'
 import FavoriteList from '../../components/favoritesRacers/FavoriteList/FavoriteList'
+import Spinner from '../../components/UI/Spinner/Spinner'
 
 class FavoritesRacers extends Component {
 
@@ -24,7 +25,7 @@ class FavoritesRacers extends Component {
   }
 
   render(){
-    let favoriteList = <p>Loading......</p>
+    let favoriteList = <Spinner />
     if(this.state.favoritesRacers){
       favoriteList = <FavoriteList racers={this.state.favoritesRacers} clickRemoveItem={this.removeFavoriteRacerItemHandler}/>
     }

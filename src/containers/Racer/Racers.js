@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import classes from './Racers.module.css'
 import axios from 'axios'
 import RacerList from '../../components/Racer/RacerList/RacerList'
+import Spinner from '../../components/UI/Spinner/Spinner'
 
 class Racers extends Component {
 
@@ -48,17 +49,13 @@ class Racers extends Component {
   }
 
   render(){
-    let seasonTitle = <p>Loading ......</p>
-    let racers = <p>Loading Racers......</p>
-    if(this.state.season){
-      seasonTitle =  <h1>Seasons {this.state.season} Final Standings</h1>     
-    }
+    let racers = <Spinner />
     if(this.state.racers){
       racers = <RacerList racers={this.state.racers} addFavorites={this.addRacerToFavoritesHandler}/>
     }
     return(
       <div className={classes.Racers}>
-        {seasonTitle}
+        {this.state.season ? <h1>Seasons {this.state.season} Final Standings</h1> : null}
         {racers}
       </div>
     )
