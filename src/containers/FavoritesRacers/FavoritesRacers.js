@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import classes from './FavoritesRacers.module.css'
+//import classes from './FavoritesRacers.module.css'
 import FavoriteList from '../../components/favoritesRacers/FavoriteList/FavoriteList'
 
 class FavoritesRacers extends Component {

@@ -13,9 +13,9 @@ class App extends Component {
       <div className={classes.App}>
         <BrowserRouter>
           <Layout>
-            <Route path="/" exact component={Seasons} />
-            <Route path="/favorites" exact component={FavoritesRacers} />
-            <Route path="/racers/:season" exact component={Racers} />
+            <Route path={`${process.env.PUBLIC_URL}/`} exact component={Seasons} />
+            <Route path={`${process.env.PUBLIC_URL}/favorites`} exact component={FavoritesRacers} />
+            <Route path={`${process.env.PUBLIC_URL}/racers/:season`} exact component={Racers} />
           </Layout>
         </BrowserRouter>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import classes from './Racers.module.css'
+//import classes from './Racers.module.css'
 import axios from 'axios'
 import RacerList from '../../components/Racer/RacerList/RacerList'
 
@@ -11,7 +11,7 @@ class Racers extends Component {
   }
 
   componentDidMount(){
-    axios.get(`http://ergast.com/api/f1/${this.props.match.params.season}/driverStandings.json`)
+    axios.get(`https://ergast.com/api/f1/${this.props.match.params.season}/driverStandings.json`)
       .then(response => {
         const data = response.data.MRData.StandingsTable.StandingsLists[0]
         const season = data.season

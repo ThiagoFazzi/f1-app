@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const seasonItem = (props) => (
 
      
-      <Link to={`/racers/${props.season}`} className={classes.SeasonItem}>
+      <Link to={`${process.env.PUBLIC_URL}/racers/${props.season}`} className={classes.SeasonItem}>
         <li >
           {props.season}
         </li>
