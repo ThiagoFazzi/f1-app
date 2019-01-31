@@ -5,7 +5,7 @@
 <h3>Description</h3>
 <p>The Formula 1 App was developed in ReactJs, that means it is a SPA Single Page Application, it was built from Create-react-app v2, two new features of this tool was incorporate in this application, fragments, and CSS modules, (each component has own CSS file).</p>
 
-<p>The focus of the app shows Formula 1 seasons between 2009 and 2018 also  Racers Standings of each season is showed when a season is selected, the user can save racers as a favorite racer on a list and this information can be shown in a list, this feature uses a localStorage to save this data. The application is responsive, can be view in desktop and mobile devices.</p>
+<p>The focus of the app shows Formula 1 seasons between 2009 and 2018 also  Racers Standings of each season is showed when a season is selected, the user can save racers as a favorite racer on a list and this information can be shown in a list of Favorites Racers, also the user can remove the racer from this list, this feature uses a localStorage to save this data. The application is responsive, can be view in desktop and mobile devices.</p>
 
 <p>To make more pretty this app, I have included some images as Flags and Teams Logo, as the API does not provide any image, I chose to include locally in the project.</p>
 
