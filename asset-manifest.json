@@ -1,9 +1,9 @@
 {
-  "main.css": "/f1-app/static/css/main.f5f67d4e.chunk.css",
-  "main.js": "/f1-app/static/js/main.de540e1f.chunk.js",
-  "main.js.map": "/f1-app/static/js/main.de540e1f.chunk.js.map",
-  "static/js/1.5b497020.chunk.js": "/f1-app/static/js/1.5b497020.chunk.js",
-  "static/js/1.5b497020.chunk.js.map": "/f1-app/static/js/1.5b497020.chunk.js.map",
+  "main.css": "/f1-app/static/css/main.1249e015.chunk.css",
+  "main.js": "/f1-app/static/js/main.f2056344.chunk.js",
+  "main.js.map": "/f1-app/static/js/main.f2056344.chunk.js.map",
+  "static/js/1.d02bdc0c.chunk.js": "/f1-app/static/js/1.d02bdc0c.chunk.js",
+  "static/js/1.d02bdc0c.chunk.js.map": "/f1-app/static/js/1.d02bdc0c.chunk.js.map",
   "runtime~main.js": "/f1-app/static/js/runtime~main.4282cc0c.js",
   "runtime~main.js.map": "/f1-app/static/js/runtime~main.4282cc0c.js.map",
   "static/media/sauber.jpg": "/f1-app/static/media/sauber.c6f487bc.jpg",
@@ -26,8 +26,8 @@
   "static/media/toyota.jpg": "/f1-app/static/media/toyota.be040727.jpg",
   "static/media/virgin.jpg": "/f1-app/static/media/virgin.6efc752a.jpg",
   "static/media/williams.jpg": "/f1-app/static/media/williams.04218321.jpg",
-  "static/css/main.f5f67d4e.chunk.css.map": "/f1-app/static/css/main.f5f67d4e.chunk.css.map",
+  "static/css/main.1249e015.chunk.css.map": "/f1-app/static/css/main.1249e015.chunk.css.map",
   "index.html": "/f1-app/index.html",
-  "precache-manifest.b831de62e0a9d17f5367ae1d6e0cb74c.js": "/f1-app/precache-manifest.b831de62e0a9d17f5367ae1d6e0cb74c.js",
+  "precache-manifest.c7ac247448d6f9b645d72fc837e4a43c.js": "/f1-app/precache-manifest.c7ac247448d6f9b645d72fc837e4a43c.js",
   "service-worker.js": "/f1-app/service-worker.js"
 }
