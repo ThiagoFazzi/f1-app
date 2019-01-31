@@ -1,7 +1,7 @@
 {
-  "main.css": "/f1-app/static/css/main.d0ec607d.chunk.css",
-  "main.js": "/f1-app/static/js/main.aba41e72.chunk.js",
-  "main.js.map": "/f1-app/static/js/main.aba41e72.chunk.js.map",
+  "main.css": "/f1-app/static/css/main.f58b05df.chunk.css",
+  "main.js": "/f1-app/static/js/main.d07b788f.chunk.js",
+  "main.js.map": "/f1-app/static/js/main.d07b788f.chunk.js.map",
   "static/js/1.cf3f4286.chunk.js": "/f1-app/static/js/1.cf3f4286.chunk.js",
   "static/js/1.cf3f4286.chunk.js.map": "/f1-app/static/js/1.cf3f4286.chunk.js.map",
   "runtime~main.js": "/f1-app/static/js/runtime~main.4282cc0c.js",
@@ -26,8 +26,8 @@
   "static/media/toyota.jpg": "/f1-app/static/media/toyota.be040727.jpg",
   "static/media/virgin.jpg": "/f1-app/static/media/virgin.6efc752a.jpg",
   "static/media/williams.jpg": "/f1-app/static/media/williams.04218321.jpg",
-  "static/css/main.d0ec607d.chunk.css.map": "/f1-app/static/css/main.d0ec607d.chunk.css.map",
+  "static/css/main.f58b05df.chunk.css.map": "/f1-app/static/css/main.f58b05df.chunk.css.map",
   "index.html": "/f1-app/index.html",
-  "precache-manifest.1388c47be0a19e84c3e4db8ed4e73f6c.js": "/f1-app/precache-manifest.1388c47be0a19e84c3e4db8ed4e73f6c.js",
+  "precache-manifest.ee4bc7be29106587851fd6416aa5c610.js": "/f1-app/precache-manifest.ee4bc7be29106587851fd6416aa5c610.js",
   "service-worker.js": "/f1-app/service-worker.js"
 }
